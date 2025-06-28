@@ -1,0 +1,41 @@
+
+Softnerve Technology Private Limited
+Artificial Intelligence (AI) Internship Assignment
+
+Objective:
+Create an automated book publication workflow using AI with the following steps:
+
+1. Scraping & Screenshots:
+   - Fetch content and save screenshots from:
+     https://en.wikisource.org/wiki/The_Gates_of_Morning/Book_1/Chapter_1
+
+2. AI Writing & Review:
+   - Use LLMs (e.g., Gemini, GPT-4) to rewrite the chapter ("spinning")
+   - Then, simulate an AI reviewer to refine the chapter.
+
+3. Human-in-the-Loop:
+   - Enable edits and revisions through human interaction (input/review cycles)
+
+4. Agentic API:
+   - Ensure smooth flow of content between AI writer, reviewer, and editor.
+
+5. Versioning & Consistency:
+   - Use ChromaDB for storing and versioning final content.
+   - Implement a RL-based search algorithm for smart content retrieval.
+
+Core Tools:
+- Python (Main language)
+- Playwright (Web scraping and screenshots)
+- LLMs (AI writing, editing)
+- ChromaDB (Database for version control)
+- RL search algorithm (For content recall and tracking)
+
+Submission:
+- Submit your code via a public GitHub repository
+- Submit a short recorded video demo
+- Deadline: 28 June 2025
+
+Note:
+- No commercial use of your code
+- AI-generated assignments without real implementation will be rejected
+- Plagiarism will lead to disqualification
